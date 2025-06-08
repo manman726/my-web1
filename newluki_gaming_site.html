@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewLuki.online - Epic Monster Survival Gaming Experience</title>
+    <meta name="description" content="Play NewLuki.online, the ultimate monster survival game. Battle creatures, survive challenges, and dominate the leaderboards in this thrilling online gaming experience.">
+    <meta name="keywords" content="newluki.online, monster survival game, online gaming, survival adventure, multiplayer game">
+    <meta name="author" content="NewLuki Gaming">
+    <link rel="canonical" href="https://newluki.online">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="NewLuki.online - Epic Monster Survival Gaming">
+    <meta property="og:description" content="Experience the ultimate monster survival challenge in NewLuki.online">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://newluki.online">
+    <meta property="og:site_name" content="NewLuki.online">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NewLuki.online - Epic Monster Survival Gaming">
+    <meta name="twitter:description" content="Battle monsters and survive in the ultimate online gaming experience">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-light-gray': '#F2F2F7',
+                        'apple-dark': '#1C1C1E',
+                        'apple-green': '#34C759',
+                        'apple-purple': '#AF52DE'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .game-container {
+            box-shadow: 0 20px 40px rgba(0, 122, 255, 0.15);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #007AFF 0%, #AF52DE 100%);
+        }
+        
+        .glass-effect {
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .hover-scale {
+            transition: transform 0.3s ease;
+        }
+        
+        .hover-scale:hover {
+            transform: scale(1.05);
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-padding {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-light-gray min-h-screen">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-6 fade-in">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <div class="text-2xl font-bold">NewLuki.online</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#game" class="hover:text-apple-light-gray transition-colors">Play Now</a>
+                    <a href="#about" class="hover:text-apple-light-gray transition-colors">About</a>
+                    <a href="#features" class="hover:text-apple-light-gray transition-colors">Features</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg text-white py-20 fade-in">
+        <div class="container mx-auto px-4 text-center mobile-padding">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
+                NewLuki.online
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto">
+                Survive the ultimate monster challenge in the most thrilling online gaming experience ever created.
+            </p>
+            <a href="#game" class="inline-block bg-white text-apple-blue px-8 py-4 rounded-full text-lg font-semibold hover-scale shadow-lg">
+                Start Playing Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="py-16 bg-white fade-in">
+        <div class="container mx-auto px-4 mobile-padding">
+            <h2 class="text-4xl font-bold text-center mb-12 text-apple-dark">Play NewLuki.online</h2>
+            <div class="max-w-6xl mx-auto">
+                <div class="game-container bg-apple-dark p-2">
+                    <iframe 
+                        src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.HTML"
+                        width="100%" 
+                        height="600"
+                        frameborder="0"
+                        allowfullscreen
+                        class="w-full rounded-2xl"
+                        title="NewLuki.online Monster Survival Game">
+                    </iframe>
+                </div>
+                <div class="text-center mt-6">
+                    <p class="text-apple-gray">
+                        Use WASD keys to move, mouse to aim and shoot. Survive as long as possible!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Game Section -->
+    <section id="about" class="py-16 bg-apple-light-gray fade-in">
+        <div class="container mx-auto px-4 mobile-padding">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-4xl font-bold text-center mb-12 text-apple-dark">About NewLuki.online</h2>
+                <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl">
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        NewLuki.online is an intense monster survival game that challenges players to test their skills against waves of relentless creatures. Built with cutting-edge web technology, this browser-based adventure delivers console-quality gaming directly to your device.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        Navigate through increasingly difficult levels as you battle hordes of monsters using strategic gameplay and quick reflexes. Each playthrough offers unique challenges and opportunities to improve your survival skills.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Whether you're a casual gamer looking for quick entertainment or a hardcore player seeking the ultimate challenge, NewLuki.online provides an engaging experience that keeps you coming back for more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-white fade-in">
+        <div class="container mx-auto px-4 mobile-padding">
+            <h2 class="text-4xl font-bold text-center mb-12 text-apple-dark">Game Features</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="text-center glass-effect rounded-3xl p-8 hover-scale">
+                    <div class="w-16 h-16 bg-apple-blue rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-apple-dark">Instant Play</h3>
+                    <p class="text-apple-gray">No downloads required. Jump straight into the action with our browser-based gaming platform.</p>
+                </div>
+                
+                <div class="text-center glass-effect rounded-3xl p-8 hover-scale">
+                    <div class="w-16 h-16 bg-apple-green rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-apple-dark">Progressive Difficulty</h3>
+                    <p class="text-apple-gray">Experience escalating challenges that adapt to your skill level for maximum engagement.</p>
+                </div>
+                
+                <div class="text-center glass-effect rounded-3xl p-8 hover-scale">
+                    <div class="w-16 h-16 bg-apple-purple rounded-full mx-auto mb-6 flex items-center justify-center">
+                        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-apple-dark">Cross-Platform</h3>
+                    <p class="text-apple-gray">Seamlessly play on desktop, tablet, or mobile devices with responsive design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gameplay Tips Section -->
+    <section class="py-16 bg-apple-light-gray fade-in">
+        <div class="container mx-auto px-4 mobile-padding">
+            <h2 class="text-4xl font-bold text-center mb-12 text-apple-dark">Master the Game</h2>
+            <div class="max-w-4xl mx-auto bg-white rounded-3xl p-8 md:p-12 shadow-xl">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 text-apple-dark">Survival Strategies</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-apple-blue rounded-full mr-3"></span>
+                                Keep moving to avoid monster attacks
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-apple-green rounded-full mr-3"></span>
+                                Collect power-ups to enhance abilities
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-apple-purple rounded-full mr-3"></span>
+                                Use terrain to your tactical advantage
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 text-apple-dark">Pro Tips</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-apple-blue rounded-full mr-3"></span>
+                                Master the timing of your attacks
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-apple-green rounded-full mr-3"></span>
+                                Learn monster behavior patterns
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 bg-apple-purple rounded-full mr-3"></span>
+                                Practice makes perfect - keep playing!
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg text-white py-12 fade-in">
+        <div class="container mx-auto px-4 mobile-padding">
+            <div class="text-center">
+                <h2 class="text-3xl font-bold mb-4">Ready to Survive?</h2>
+                <p class="text-xl mb-8 text-gray-200">Join thousands of players in the ultimate monster survival challenge.</p>
+                <a href="#game" class="inline-block bg-white text-apple-blue px-8 py-4 rounded-full text-lg font-semibold hover-scale shadow-lg mb-8">
+                    Play NewLuki.online Now
+                </a>
+                <div class="border-t border-white border-opacity-20 pt-8 mt-8">
+                    <p class="text-apple-light-gray">&copy; 2025 NewLuki.online. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Schema.org JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "NewLuki.online",
+        "description": "Epic monster survival game with intense gameplay and progressive difficulty",
+        "url": "https://newluki.online",
+        "genre": "Survival",
+        "gamePlatform": "Web Browser",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</body>
+</html>
